@@ -2,6 +2,7 @@ import random
 import string
 
 #Prompt user for name & surname
+#Generate unique Username
 def details():
     name = input("Enter your name:")
     surname = input("Enter your last name: ")
