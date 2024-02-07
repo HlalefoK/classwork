@@ -13,11 +13,13 @@ def generate(length=12):
     characters = string.ascii_letters + string.digits + string.punctuation
     return ''.join(random.choice(characters) for _ in range(length))
     
-
-
-if __name__ == '__main__':
+def run():
     username = details()
     password = generate()
 
     print(username)
     print(password)
+
+
+if __name__ == '__main__':
+    run()
